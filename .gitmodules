@@ -2,3 +2,8 @@
 	path = inventories/Ansible.Inventory.Example
 	url = git@github.com:wolfsea89/Ansible.Inventory.Example.git
 	branch = master
+
+[submodule "roles/Ansible.Role.VM.ConfigurationSSH"]
+	path = roles/Ansible.Role.VM.ConfigurationSSH
+	url = git@github.com:wolfsea89/Ansible.Role.VM.ConfigurationSSH.git
+	branch = release/1.0
