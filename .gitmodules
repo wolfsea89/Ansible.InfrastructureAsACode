@@ -1,0 +1,4 @@
+[submodule "inventories/Ansible.Inventory.Example"]
+	path = inventories/Ansible.Inventory.Example
+	url = git@github.com:wolfsea89/Ansible.Inventory.Example.git
+	branch = master
