@@ -1,0 +1,39 @@
+[submodule "inventories/Ansible.Inventory.Example"]
+	path = inventories/Ansible.Inventory.Example
+	url = git@github.com:wolfsea89/Ansible.Inventory.Example.git
+	branch = release/1.0
+
+[submodule "roles/Ansible.Role.VM.ConfigurationDocker"]
+	path = roles/Ansible.Role.VM.ConfigurationDocker
+	url = git@github.com:wolfsea89/Ansible.Role.VM.ConfigurationDocker.git
+	branch = release/1.0
+
+[submodule "roles/Ansible.Role.VM.ConfigurationSSH"]
+	path = roles/Ansible.Role.VM.ConfigurationSSH
+	url = git@github.com:wolfsea89/Ansible.Role.VM.ConfigurationSSH.git
+	branch = release/1.0
+
+[submodule "roles/Ansible.Role.VM.ConfigurationSudo"]
+	path = roles/Ansible.Role.VM.ConfigurationSudo
+	url = git@github.com:wolfsea89/Ansible.Role.VM.ConfigurationSudo.git
+	branch = release/1.0
+
+[submodule "roles/Ansible.Role.VM.GroupsManagement"]
+	path = roles/Ansible.Role.VM.GroupsManagement
+	url = git@github.com:wolfsea89/Ansible.Role.VM.GroupsManagement.git
+	branch = release/1.0
+
+[submodule "roles/Ansible.Role.VM.InstallPackages"]
+	path = roles/Ansible.Role.VM.InstallPackages
+	url = git@github.com:wolfsea89/Ansible.Role.VM.InstallPackages.git
+	branch = release/1.0
+
+[submodule "roles/Ansible.Role.VM.SetHostname"]
+	path = roles/Ansible.Role.VM.SetHostname
+	url = git@github.com:wolfsea89/Ansible.Role.VM.SetHostname.git
+	branch = release/1.0
+
+[submodule "roles/Ansible.Role.VM.UsersManagement"]
+	path = roles/Ansible.Role.VM.UsersManagement
+	url = git@github.com:wolfsea89/Ansible.Role.VM.UsersManagement.git
+	branch = release/1.0

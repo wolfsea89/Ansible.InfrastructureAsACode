@@ -1,0 +1,17 @@
+---
+- name: Gruops and users management
+  hosts: virtual_machine
+  become: true
+  gather_facts: no
+  
+  roles:
+    - role: Ansible.Role.System.GroupsManagement
+      tags: [groups]
+      vars:
+        groups_on_host: "{{ system.groups_on_host }}"
+
+    - role: Ansible.Role.VM.UsersManagement
+      tags: [user]
+      vars:
+        users_on_host: "{{ system.users_on_host }}"
+        users:         "{{ all.users }}"
